@@ -1,9 +1,9 @@
 bash-proxy.sh
 ========
 
-Automatic set http_proxy/https_proxy before a command executes and unset http_proxy/https_proxy after a command executed.
-You can specify the matched site in `site_list` and the matched prefix command name in `cmd_list`.
-Automatic load `site_list` and `cmd_list` when you have modified it.
+Automatic set http_proxy/https_proxy before a command executes and unset http_proxy/https_proxy after a command executed.  
+You can specify the matched site in `site_list` and the matched prefix command name in `cmd_list`.  
+Automatic load `site_list` and `cmd_list` when you have modified it.  
 It will do nothing if you already set http_proxy/https_proxy.
 
 
